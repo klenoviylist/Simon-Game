@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  background-color: #0F3057;
+}
+
+button {
+  background-color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  color: #30475E;
+  margin: 1% 1% 0 80%;
+  padding: 5px 10px;
+}
+
+ button:hover {
+   background-color: #0F3057;
+   color: #FEF2BF;
+ }
+
+/* Rules page */
+
+.rules-title {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: #FEF2BF;
+  margin-bottom: 3%;
+
+ }
+
+ .container2 {
+   color: #F1F3DE;
+   font-family: 'Ubuntu Mono', monospace;
+   text-align: left;
+   font-size: 1rem;
+   line-height: 3;
+ }
+
+ .back-to-game {
+   margin: 2% 80% 0 1%;
+ }
+
+ /* Game page */
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  3%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  border-top-right-radius: 90%;
+}
+
+.green {
+  background-color: green;
+  border-top-left-radius: 90%;
+}
+
+.blue {
+  background-color: blue;
+  border-bottom-right-radius: 90%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-left-radius: 90%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer {
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.5rem;
+  margin-top: 5%;
+}
