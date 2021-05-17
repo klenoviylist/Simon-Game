@@ -12,7 +12,7 @@ var started = false;
 
 // Detect when key was pressed to start the game
 
-$(document).keydown(function() {
+$(".btn-start").click(function() {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
@@ -22,7 +22,7 @@ $(document).keydown(function() {
 
 // When user clicks a button
 
-$(".btn").click(function() {
+$(".btn-clr").click(function() {
 
   var userChosenColor = $(this).attr("id");
   userClickedPattern.push(userChosenColor);
@@ -88,7 +88,7 @@ function animatePress(currentColor) {
 // If user clicks the wrong button
 function gameOver() {
 
-  $("#level-title").text("Game over. Press any key to restart.");
+  $("#level-title").text("Game over. Try again");
   $("body").addClass("game-over");
   setTimeout(function () {
   $("body").removeClass("game-over");

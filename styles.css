@@ -3,18 +3,32 @@ body {
   background-color: #0F3057;
 }
 
-button {
+.btn-rules {
   background-color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
   color: #30475E;
-  margin: 1% 1% 0 80%;
   padding: 5px 10px;
+  margin: auto;
+  margin-top: 20px;
 }
 
- button:hover {
+ .btn-rules:hover {
    background-color: #0F3057;
    color: #FEF2BF;
  }
+
+ .btn-start {
+  background-color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  color: #30475E;
+  padding: 10px 20px;
+  margin-top: 30px;
+ }
+
+ .btn-start:hover {
+  background-color: #0F3057;
+  color: #FEF2BF;
+}
 
 /* Rules page */
 
@@ -54,7 +68,7 @@ button {
 
 }
 
-.btn {
+.btn-clr {
   display: inline-block;
   height: 200px;
   width: 200px;
@@ -97,3 +111,18 @@ footer {
   font-size: 0.5rem;
   margin-top: 5%;
 }
+
+
+@media (max-width: 900px) {
+  .btn-clr {
+          width: 80px;
+          height: 80px;
+   } 
+
+   #level-title {
+    font-size: 2rem;
+    margin:  5%;
+   }
+}
+
+
