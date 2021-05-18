@@ -21,8 +21,8 @@ body {
   background-color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
   color: #30475E;
-  padding: 10px 20px;
-  margin-top: 30px;
+  padding: 40px 10px;
+  margin-top: 40px;
  }
 
  .btn-start:hover {
@@ -115,13 +115,22 @@ footer {
 
 @media (max-width: 900px) {
   .btn-clr {
-          width: 80px;
-          height: 80px;
+          width: 120px;
+          height: 120px;
    } 
 
    #level-title {
     font-size: 2rem;
     margin:  5%;
+   }
+
+   .container {
+     margin-top: 60px;
+     width: 70%;
+   }
+
+   .btn-start {
+     margin-bottom: 30px;
    }
 }
 
